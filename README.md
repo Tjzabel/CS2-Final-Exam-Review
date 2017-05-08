@@ -64,17 +64,42 @@
 * In checked, we can check them in advance
 * Unchecked exceptions you cannot look for
 
-### A program cannot continue after an exception
+### _A program cannot continue after an exception_
 
-try-catch blocks are used in order to use exceptions
+* try-catch blocks are used in order to use exceptions
+
+## Threads
+* Wait() and NotifyAll()
+* Synchronized 
+* Sleep() makes a thread sleep for a certain amount of time
+* Yield()
+* Run() method
+* Start() calls run
+
+#### Ways to Make a Thread
+* Extend Thread
+* Implement Runnable
+
+#### Process vs. Threads
+* Processes cannot share memory
+* Processes are made up of many threads
+* Threads can share memory
+* Threads are used to do multiple tasks at the same time
 
 
+## IO
+* Used to read and write input and output
 
+### Streams
+* Input streams
+* Output streams
 
+#### _Classes must implement Serializable in order to be written to a file_
 
-
-
-
+## Networking
+* Understand TCP and UDP
+*** TCP needs a connection
+*** UDP sends out information, does not need a client/server interaction
 
 
 
