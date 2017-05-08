@@ -64,7 +64,7 @@
 * In checked, we can check them in advance
 * Unchecked exceptions you cannot look for
 
-### _A program cannot continue after an exception_
+### **_A program cannot continue after an exception_**
 
 * try-catch blocks are used in order to use exceptions
 
@@ -81,10 +81,12 @@
 * Implement Runnable
 
 #### Process vs. Threads
-* Processes cannot share memory
-* Processes are made up of many threads
-* Threads can share memory
-* Threads are used to do multiple tasks at the same time
+* Processes 
+  * cannot share memory
+  * made up of many threads
+* Threads 
+  * can share memory
+  * used to do multiple tasks at the same time
 
 
 ## IO
@@ -94,12 +96,12 @@
 * Input streams
 * Output streams
 
-#### _Classes must implement Serializable in order to be written to a file_
+#### **_Classes must implement Serializable in order to be written to a file_**
 
 ## Networking
 * Understand TCP and UDP
-*** TCP needs a connection
-*** UDP sends out information, does not need a client/server interaction
+  * TCP needs a connection
+  * UDP sends out information, does not need a client/server interaction
 
 
 
