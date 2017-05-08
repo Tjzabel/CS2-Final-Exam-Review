@@ -1,5 +1,6 @@
 # Final Exam Review
 For Professor Scott Johnson
+By: Tim Zabel
 
 ## class types and inheritance
 
@@ -46,5 +47,34 @@ Uses queues
 Already visited nodes, and allows for the actual path to be returned when algorithm finishes
 
 ### Directed vs Undirected Graphs
-In directed, you can only traverse one way, limits the path
-With undirected, paths go either way
+<ul>
+<li>In directed, you can only traverse one way, limits the path</li>
+<li>With undirected, paths go either way</li>
+</ul>
+
+## Backtracking
+<ul>
+<li>Gives two configurations using getSuccessors()</li>
+<li>isValid() checks to find the valid configuration of the two</li>
+<li>Valid configuration then updates the internal state</li>
+
+### Pruning
+<ul>
+<li>Makes algorithm time much shorter</li>
+<li>Prunes off bad paths</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
